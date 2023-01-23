@@ -13,6 +13,7 @@ def main():
     win = Tk()
     win.title("图片抓取器 V0.3.1 -- By lanlan2_")
     win.resizable(0, 0)
+    win.iconbitmap("icon.ico")
 
     def settings():
         top1 = Toplevel()
